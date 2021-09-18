@@ -1,0 +1,25 @@
+#inside ~ p {
+    background-color: lightgreen;
+}
+
+nav a {
+    padding: 5px;
+    background-color: lightcyan;
+
+}
+
+#lastDiv {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 3px;
+    padding: 20px; 
+    text-decoration: none;
+    text-align: justify;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    text-indent: 10px;
+    line-height: 20px;
+    text-shadow: 1px 1px 5px red;
+}

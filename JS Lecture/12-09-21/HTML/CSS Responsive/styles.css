@@ -1,0 +1,58 @@
+.parent {
+    display: grid;
+    /*grid-template-columns: auto auto auto auto;*/
+    grid-template-areas: 'header header header header' 
+                         'menu content content content2' 
+                         /*'menu content3 content3 content3'*/
+                         'footer footer footer footer';
+    padding: 20px;
+    background-color: lightgray;
+    grid-gap: 10px;
+    /*align-content: space-between;*/
+    /*height: 500px;*/
+}
+
+.child1 { grid-area: header; background-color: white;}
+.child2 { grid-area: menu}
+.child3 { grid-area: content}
+.child4 { grid-area: content2}
+.child5 { grid-area: footer}
+.child6 { grid-area: content3}
+
+.parent > div {
+    padding: 20px;
+    border: 2px solid black;
+}
+
+/*
+extra small device (max-width: 600px) - mobile
+small device (min-width: 600px)
+medium device (min-width: 7** px)
+large device (min-width: 9** px)
+extra large device (min-width : 1200px)
+
+orientation: portarait/landscape
+*/
+
+@media only screen and (min-width: 786px) {
+    .child1 {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 923px) {
+    .child1 {
+        background-color: lightyellow;
+    }
+}
+
+
+/* .child {
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.child2 {
+    grid-area: 1 / 2 / span 2 / span 2;
+} */

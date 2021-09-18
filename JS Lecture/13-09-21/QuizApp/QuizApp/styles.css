@@ -1,0 +1,21 @@
+#myScore {
+    padding: 8px;
+    width: 100px;
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+#questionSection {
+    margin: 25px;
+}
+
+.question {
+    border: 3px solid blue;
+    padding: 15px;
+    background-color: lightblue;
+    margin-top: 5px;
+    border-radius : 20px;
+}

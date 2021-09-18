@@ -1,0 +1,30 @@
+#header, #footer {
+    padding:15px;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 5px;
+    background-color: lightgreen;
+}
+
+#soundbar, #facebook, #twitter {
+    width : 21%;
+    border: 2px solid black;
+    height: 25%;
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: lightpink;
+}
+
+#main {
+    width : 78%;
+    float: right;
+    box-sizing: border-box;
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+    height: 77%;
+    margin-top: 5px;
+    background-color: lightskyblue;
+}
