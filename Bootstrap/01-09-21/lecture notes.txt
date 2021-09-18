@@ -1,0 +1,70 @@
+- BS Alerts - 
+- BS Progress Bar - 
+- BS Cards -
+- BS Collapse - 
+- BS Nav Bar - 
+- BS ScrollSpy - 
+- BS Modal - 
+- CSS Animations (Tentative)
+-----------------------------------------------------------------------------
+Future Topics::
+
+Lists Bootstrap
+Button Groups
+Jumbotron
+Tables
+Tooltip
+Popover
+Forms
+Carousel
+Toast
+---------------------------------------------------------
+BS4 Alerts: 
+- showing some important messages on our UI - alert, warning, error message, success message
+- alert alert-success alert-dismissible 
+- button - class=close, data-dismiss=alert
+-------------------------------------------------------------------------
+BS4 Progress:
+- User is showing some progress and we can see how much it is completed
+- progress -> progress-bar
+- progress-bar bg-success progress-bar-striped
+----------------------------------------------------------------------------
+BS4 Cards
+- card-columns, card-deck, card-group
+- card, card-body, card-text, card-title, card-img-top, card-link 
+-------------------------------------------------------------------------------
+BS4 Collapse
+- you want to hide or show something / content (large/small/medium)
+- Attributes for  button/anchor
+  - data-target/href => content which you want to show
+  - data-toggle => what kind of property you will be using (collapse)
+---------------------------------------------------------------------------------------
+BS4 NavBar
+- navbar - (nav)
+- navbar-nav  - (ul)
+- nav-link -(a)
+- nav-item - (li)
+
+- Collapsable Navbar
+	- collapse , data-toggle ="collapse"
+-----------------------------------------------------------------------------------------
+BS4 Modal
+- modal 
+ - modal-content
+ - modal-dialog
+----------------------------------------------------------------------------------------
+ScrollSpy 
+- Automatically Scroll down/up in your webpage - it automatically active your links
+- Scroll Position activates/update your links in a nav bar
+few points:
+ - apply this body
+--------------------------------------------------------------------------------------------
+CSS Animations
+
+	animation-name: myDiv;
+	animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-direction:reverse ;
+    animation-timing-function: ease-in;
+---------------------------------------------------------------------------------------

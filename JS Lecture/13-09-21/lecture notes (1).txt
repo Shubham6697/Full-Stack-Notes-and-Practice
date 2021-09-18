@@ -1,0 +1,32 @@
+- OOPS in JS
+- Encapsulation - 
+- Abstraction - Half Par
+- Website Designing with Dynamic Content
+
+--------------------------------------------------
+Encapsulation - ??
+
+
+class Student {
+private int id;
+private String nane;
+
+Student(){
+}
+
+Student(int id, String name)
+
+//getters and setters
+
+----------------------------------------------------
+//Quiz Application
+-> Question - >id, question ,options, answers, etc etc
+- Abstraction in Quiz Terms (
+
+-  with encapsulation
+---------------------------------------------------------------
+Abstraction -> 
+=> closures -It Works on the principle of Abstraction only 
+- polymorphism (overriding)
+- inheritance (extends)
+

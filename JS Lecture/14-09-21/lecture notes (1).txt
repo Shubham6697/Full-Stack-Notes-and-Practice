@@ -1,0 +1,84 @@
+- OOPs 
+- Encapsulation - wrapping up the data in single object/model
+- Abstraction - hiding important implementation from the user
+
+Closurers and Abstraction
+
+- Inheritance
+- Polymorphism
+
+- Advanced by using closures
+
+=> Prototyping Programming -> Inheritance and Polymorphism 
+
+Closures -> 
+
+//a
+//inner function
+    // b -> 20;
+// inn -> inner() -> b is removed from memory
+// closure concept -> we can use it outside the lexial scope
+--------------------------------------------------------------------------------------
+Inheritance --> 
+
+Parent -> Child (inherited from parent) - access propeerties from parent
+
+Is a  Relationship between child and parent
+
+CAR -> model, make, year
+Maruti - Economy, Honda- Luxury, Hyundai - Convience , Kia - Automatic, Tata - Safety
+
+//Question -> 
+-----------------------------------------------------------------------------------------
+Polymorphism
+-> Method Overaloading - in same class
+-> Method Overriding - in inheritance
+
+JS -> NO Method Overaloading Concept  in JS
+Method Overriding Concept in JS
+- We should know about Inheritance
+
+function myFunc(a, b, c, d, e) {
+}
+
+Class -> show() in class -> Parent -> PArent -> Error (fcuntion not defined)
+
+myFunc(1, 3)
+myFunc(1, 2, 4)
+myFunc(1, 2, 3, 4)
+myFunc(1, 2, 3,4,5)
+------------------------------------------------------------------------------------
+Prototypes and its inheritance
+Error handling in JS
+
+ES6 Features 
+Higher Order functions
+Currying 
+Promises, Async/Await
+-----------------------------------------------------
+Event Looping
+Debouncing
+Memoization -> Caching
+
+localStorage, sessionStorage
+cookie -
+
+function User(name, score) {
+this.name=name;
+this.score=score;
+}
+
+const arr = [{name: 'anuj', score: '54'}  {name : 'pranjal', score: '60'}]
+
+localStorage.set(scoreArr, arr);
+
+const arr = localStorage.get(arr);
+arr.sort(dynamicsort)
+
+function dynamicsort() {
+	return function(obj1, obj2) {
+		return obj1.score > return obj2.score
+	}
+}
+
+------------------------------------------------------------------------------

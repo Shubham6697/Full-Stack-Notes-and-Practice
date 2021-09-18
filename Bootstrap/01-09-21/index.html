@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   
+</head>
+<body data-spy="scroll" data-target=".navbar">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img src="./images/ny.jfif" style="height:40px; width: 40px;"></a>
+
+    <button class="navbar-toggler" data-target="#collapseable-nav" data-toggle="collapse"
+            type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="collapseable-nav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Services</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#it">IT</a>
+                    <a class="dropdown-item" href="#support">Support</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    </nav>
+    <br/>
+    <button type="button" class="btn btn-primary" data-target="#myModal" data-toggle="modal">Click to Open</button>
+    <div class="modal" id="myModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">My First Modal</h3>
+                </div>
+                <div class="modal-body">
+                    <p>this is my modal body for first time</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div id="animatedDiv">
+
+    </div>
+
+    <!-- <div class="container">
+       <div class="alert alert-danger alert-dismissible">
+           <button type="button" class="close" data-dismiss="alert">&times;</button>
+           This is my Message
+       </div>
+       <div class="alert alert-info">
+        This is my Message
+        </div>
+    </div>
+    <div class="progress" style="height:40px">
+        <div class="progress-bar bg-success progress-bar-striped" style="width:50%">50%</div>
+        <div class="progress-bar bg-danger progress-bar-striped" style="width:20%">20%</div>
+        <div class="progress-bar bg-warning progress-bar-striped" style="width:10%">10%</div>
+    </div>
+<br/>
+
+<button data-toggle="collapse" data-target="#myCollapseDiv">Click to Open Div</button>
+<a href="#myCollapseDiv" data-toggle="collapse">Click to open</a>
+<div id="myCollapseDiv" class="collapse show">
+    This is my Collapsable Div which is showing on user Event.
+</div>
+<br/>
+<div class="container">
+    <div class="card">
+        <img src="./images/chicago.jpg" class="card-img-top" style="height:100px; width:100%;">
+        <div class="card-header">Heading</div>
+        <div class="card-body">
+            <h3 class="card-title">Anuj Garg</h3>
+            <p class="card-text">This is my Card and get the details.</p>
+            <a href="#" class="stretched-link">Contact Me</a>
+            <a href="#" class="card-link">About Me</a>
+        </div>
+        <div class="card-footer">My Contact Details</div>
+    </div>
+    <div class="card-group">
+        <div class="card bg-success">
+            <div class="card-body">
+                <p class="card-text">This is my first Green Card</p>
+                <p class="card-text">This is my first Green Card</p>
+                <p class="card-text">This is my first Green Card</p>
+                <p class="card-text">This is my first Green Card</p>
+                <p class="card-text">This is my first Green Card</p>
+            </div>
+        </div>
+        <div class="card bg-warning">
+            <div class="card-body">
+                <p class="card-text">This is my first Green Card</p>
+            </div>
+        </div>
+        <div class="card bg-danger">
+            <div class="card-body">
+                <p class="card-text">This is my first Green Card</p>
+            </div>
+        </div>
+        <div class="card bg-primary">
+            <div class="card-body">
+                <p class="card-text">This is my first Green Card</p>
+            </div>
+        </div>
+    </div>
+</div>
+<br/> -->
+</body>
+</html>

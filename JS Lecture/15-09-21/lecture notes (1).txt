@@ -1,0 +1,63 @@
+- Prototype
+- Prototype Inheritance
+----------------------------------------------------------------------------
+
+Mechanism in JS -> Objects inherit properties from one another
+
+let s = 'anuj'; => It is inherting properties/methods from String Prototype
+s is string
+
+a => String => Object   
+arr => Array => Object
+obj => Object
+n => Number -> Object
+-------------------------------------------------------------------
+1. increase param -> Strcutur of my construcutor needs to change
+2. inherit and call super
+
+Question -> id, text, answer
+
+ques -> id, text, answer [options]
+
+Question.prototype.options = ['10']; //options will be avaiallble to each object for Question
+
+ques2 -> id, text, answer [options]
+
+ques -> Question -> Object
+
+ques.valueOf() -> ques X -> Question X -> Object valueOf() -> it executes
+
+cricQues -> CricketQueston -> Questiono -> Object (Prototyping Inheritance Chain)
+---------------------------------------------------------------------------
+let ques3 = Object.create(ques2);
+
+ques3 - {}, ques2(parent for ques3)
+
+ques3 -> ques2 -> Question -> Object
+----------------------------------------------------------------------------------
+
+prototype -> Defination of F, Question, Object, String, Boolean
+
+__proto__ -> Parent Refer (objects)
+
+- Prototype
+- Prototype Inheritance
+- Prototype Chaining
+- Variable Shadowing Concept in Prototypes
+- Editing Prototype - adding new methods/variables in prototype
+-----------------------------------------------------------------------------
+
+Error Handling in JS
+
+ES6 -> Destreucturing, Rest, Spread, Map, Set
+HOF -- higer order functions
+Currying - 
+
+Promise/Async/Await
+
+Event Looping
+Debouncing -- most hated in my life -- ????? - delay function in debounce (viewport)
+Memoization
+localStorage, sessionStorage, cookie
+Polyfill - ???? 
+---------------------------------------------------------

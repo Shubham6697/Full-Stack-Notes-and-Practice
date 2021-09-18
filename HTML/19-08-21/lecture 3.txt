@@ -1,0 +1,69 @@
+- Semantic Tags -- done
+- Tables -- done
+- Audio, Videos -- done
+- Images --- dpone
+- Formatting Tags -- done
+- Links to Other pages/sections --- done
+- Css Basics (internal, inline, external) -- done
+- Use of ID, Style, Class in Elements --- done
+- Forms ( - Javscript
+
+<div> <span> 
+
+<div>
+	<p> hello </p>
+</div>
+
+<form> , <table> , <header> , <footer> , <section>, <nav> - 
+---------------------------------------------------
+Formatting Tags
+
+<b>, <u> , <i>, <strong>, <em>, <small> , <del> , <ins> 
+<mark>
+<i> </i>
+
+--------------------------------------------------------
+Images in Web Page
+
+<img> -> additional properties which are termed as attributes for that tag
+- src -> Destination of Image 
+- alt - Alternate Text
+- height 
+- width 
+
+<img src="image.jpg" alt="My Image" height="100" width="200"/>
+src- internal (local image)
+src - Extenral (Outside images -server url)
+
+JPG, PNG, JPEG, SVG, GIF
+alt -> alternate text 
+height, width
+--------------------------------------------------------
+<audio>
+<video>
+
+---------------------------------------------------------
+Tables
+
+thead -> Header of the table 
+tbody -> Body of the table
+tfoot -> Footer
+tr -> Table Row
+th -> Table Header 
+td -> Table Data
+table -> Main Tag Which Creates Table
+
+colspan, rowspan
+------------------------------------------------------
+Links
+- Outer Links (External)
+- Internal Section Links
+
+CSS- Cascading Style Sheet
+
+attributes, 
+id, style, class
+id - Unique Name for any HTML element
+class - CSS level Properties 
+style-  Inline CSS for your HTML element
+---------------------------------------------------------

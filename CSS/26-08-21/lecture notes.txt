@@ -1,0 +1,85 @@
+- CSS Transform ---- done
+- CSS Transitions ---- done
+- Attribute Selectors --- done
+- CSS Navigation Bar Styling
+- CSS Alignments
+- CSS Menus
+-------------------------------------------------------------------------------------
+Attribute Selectors
+- When you can provide styling by using attributes of elements
+-
+|= -> value starts from "starting word"
+^= -> value starts from given value (not necessary for word)_
+*= -> contains
+$= -> attribute ends with specific value
+------------------------------------------------------------------------------------
+CSS Transform (2D Transform) - along X and Y Axis only
+3D Transform (works on Z Axis)
+
+- you can move, rotate, scale, skew, transform any element in your webpage 
+
+transform : 
+	rotate() - +(clockwise), -(anti clockwise) use "20deg" as parameter 
+	translate() - moving the elements x and y axis
+	translate3d(20px, 40px, 60px)
+	scale3d(2, 3, 4)
+	perspective - with CSS (it will visualize your webpage as 3D)
+	scale() - increase/decrease
+	skew() - oblique
+	rotateX() 0- angle
+	rotateY()
+	rotateZ()
+	scaleX() - increases/decrease width
+	scaleY() - height
+	skewX() - oblique at x axis
+	skewY()- oblique at y axis
+	
+---------------------------------------------------------------------------------------------------------------------
+CSS Transitions
+
+- transition - property duration
+- transition-duration
+- transition-property
+- transition-delay - delays the start of transition
+- transition-timing-function (it helps to manage your transition speed)
+	- linear - this is default
+	- ease - slowly starts the transition, then it becomes fast, end also slow
+	- ease-in - slow start
+	- ease-out - slow end
+	- ease-in-out - slow start and slow end
+	- cubic
+-----------------------------------------------------------------------------------------------
+
+Home Assignment - Create Nav Bar With Proper Hovering and Proper Position of Lists 
+-----------------------------------------------------------------------------------------
+
+CSS Alignments:
+
+- Div Alignment - margin: auto, width: 50%
+- Image At Center - float, display: block, margin: auto, 
+- Text -> text-align, padding
+- line-height (make your text at center)
+- position - absolute, relative
+- float, clear- specifying the elements left/right
+
+position, display, float, - you can create hoverable menu in CSS
+
+--------------------------------------------------------------------------------------------------------
+
+Acceptance Criteria:
+
+- Home Page
+- 3 Other Web Pages
+- Navigation from Home Page to Other PAges and vice-a-versa
+- Home -> Contact US Section (Lists Styling, Positions), About US (first-line, first-letter) Section, scrollable, 
+Footer, Header, Nav, Each Quiz Part has different seciton on body (different images on home page, and navigation from that image)
+- Other Web Pages -> Nav Bar, Anchor Sections (navigate on same page)
+- Use Sections and Article Symentics
+
+Web pages - Create Quiz Pages (Cricket Quiz, Bollywood Quiz, Science Quiz)
+	- Create Sections (hard, easy, medium)
+	- Provide Sectinos links at top of each web page to navigate directly
+	- Use Questions and Your Answers should be with (Tooltip) When you hover over answer 
+	
+Use Lists, Tables, Text-Styling, Float, Postion, Display Properties
+---------------------------------------------------------------------------------------------------------------------

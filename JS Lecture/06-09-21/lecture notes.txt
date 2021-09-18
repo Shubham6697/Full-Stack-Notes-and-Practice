@@ -1,0 +1,90 @@
+- Arrays - map, filter, find, reduce, forEach, indexOf, lastIndexOf 
+- Looping (for, for in, for of) - for, while, do-while 
+- pass by value/ pass by reference
+- this keyword and few important points on this 
+---------------------------------------------------------------------------------
+Array of Objects: 
+[{
+	id : 100, 
+	name: Anuj, 
+	city : Gurgaon
+ }
+]
+
+Group all student objects with respect to their city using reduce method() -> assignment
+------------------------------------------------------------------------------------------------
+
+Pass by value/ - primitives
+
+pass by reference - objects
+
+var a = 5;
+var b = a;
+
+a, b -> 5
+
+b = 6
+a =? , b= ? => Pass by value concept
+
+obj1 = { id : 10, name : 'anuj' }
+
+obj2 = obj1;
+
+obj2.name = 'rahul;
+obj1.name -> anuj or rahul
+-----------------------------------------------------------------------------
+[{question: '', choices: [a,b,c,d], correctAnswer : 'New Delhi', id: 'easy1'},
+{question: '', choices: [a,b,c,d], correctAnswer : 'New Delhi', id: 'easy2'}
+{question: '', choices: [a,b,c,d], correctAnswer : 'New Delhi', id: 'easy3'}
+{question: '', choices: [a,b,c,d], correctAnswer : 'New Delhi', id: 'easy4'}
+{question: '', choices: [a,b,c,d], correctAnswer : 'New Delhi', id: 'hard1'}
+{question: '', choices: [a,b,c,d], correctAnswer : 'New Delhi', id: 'medium1'}
+{question: '', choices: [a,b,c,d], correctAnswer : 'New Delhi', id: 'easy5'}
+{question: '', choices: [a,b,c,d], correctAnswer : 'New Delhi', id: 'easy6'}
+]
+---------------------------------------------------------------------------------------
+array.map((obj) => {
+return <section>
+	<h2>obj.question</h2>
+	<ul>obj.choices</ul>
+	<input id={obj.id} type="text" value="">/>
+</section>
+});
+
+document.getelementbyId("easy1").value === obj.correctAnswer = true (alert - your answer is correct)
+-----------------------------------------------------------------------------------------------------
+this keyword -> VERY IMPORTANT FOR REACT JS AND JAVASCRIPT
+- Global Scope
+- Function Scope
+
+- Global Scope => globally if we are using (this) - it will be inside global context
+	- this - browser (window)
+	- this - node (global)
+- Function Scope -> 
+
+this -> this will refer to that object which is being called 
+
+global - window
+this is being called by any other object, it will refer to that not global
+
+normal Way - by using different methods
+Arrow Functions (this will never change whatever it is)
+----------------------------------------------------------------------
+'use strict' -> in function this will be undefined 
+
+- Static
+
+// Quiz Application (work on it) - make it dynamic
+
+To make it enahance version
+
+- USer Input -> difficulty level select
+- each question will be 15 seconds only - 
+- MCQs
+- if he failed to answer in 15 secs, then alert with timeout
+- Answer validation
+- Scoring 
+- 
+
+- Management System- Library, User Registration, Student, - Dynamic (Multiple Functionalitue, backend)
+- UI tech stack - Node JS, - 1 month

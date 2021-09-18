@@ -1,0 +1,92 @@
+What is Web Development?
+- Web Page - 
+- Web Site
+- Web Server
+- Search Engine
+Internet - Works
+Client Server Architecture
+URL and Domain Name
+http://www.mywebsite.com:8080/home?id=102#aboutus
+
+http(8080) - Protocol, https(8443), ftp 
+
+www.mywebsite.com -> Domain Name
+8080 -> Port
+/contactus -> path
+id -> queryPAram
+
+aboutus -> Anchor
+------------------------------------------------------------------------------
+
+Web Programming -> Frontend and Backend
+
+Web server -> 1. Hosting a Website
+			  2. Communicating with DB, APIs, Third Party
+			  3. Integration (APIs, Middleware)
+			  
+------------------
+
+HTTP Request - Web Server Actually Communicates using HTTP
+
+Http Requests - GET, POST, PUT, DELETE
+
+Request from Client -> Server (HTTP Request with Special Methods) 
+
+GEt, POst, PUt, Delete 
+
+Place Order -> POST Request from Client(Web Site)-> Server (Process your request) as Post
+Response to Client(Web SitE)
+
+Response Codes -> 
+Client -> Server 
+Server -> Client(Response Code)
+
+2** -> OK Status (Successful) 200, 201, 204 
+3** -> Routing (Request to Some Other Server) - 302, 304, 
+4** -> Failed (Request - Bad Request, server not found,
+5** -> Internal Server error -> 
+-----------------------------------------------------------------------
+Front End Development
+1. HTML -> DOM like strucuture, you can tags, buttons, any section anything HTML
+2. CSS -> Stylesheet, Helps to Change your views looks of web page
+3. Javascript -> Dynamic Programming in front end 
+
+Browsers - operating system
+
+user, product, product size, color, quantity -> server
+
+Backend Development
+1. Java, C#, C++, Python., Node JS, golang
+Operating Systems
+- Databases Interaction - Dynamic 
+
+Front End - > JSON, XML, (types of Data)
+
+Middleware -> Interaction Layer -> Front end and backend [APIs]
+
+Visual Studio Code
+------------------------------------------------------------
+Web Frameworks
+
+- HTML, CSS, JS
+- React JS - Frameworks
+
+angular JS
+Node JS
+
+Java - Spring Boot, Spring MVC, Struts, Hibernate 
+
+{ "id" : 102, "name" : "Anuj" }
+
+<xml>
+<id> 102 </id>
+<name> Anuj </name>
+
+
+
+
+
+
+
+
+<

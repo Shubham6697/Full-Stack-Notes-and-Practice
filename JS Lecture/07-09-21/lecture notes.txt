@@ -1,0 +1,55 @@
+- IIFE (Immediately Invoked Function Expression)
+- Callbacks --> Promises/async-await
+- DOM and BOM Programming
+---------------------------------------------------
+
+IIFE -> Immediately when you define function - it will be called
+
+(function(){
+	// code 
+	//code
+})();
+
+function myFunc() {
+}
+
+myFunc();
+-------------------------------------------------------------------------
+Callbacks:
+- JS functions (whenever they are called)
+----------------------------------------------------------------------
+BOM and DOM
+
+- Browser Object Modal 
+- Document Object Modal Programming
+
+DOM -> Tree Like Structure -> nodes(element) -> How to change elements in DOM Structure
+		 by using events, listeners, methods, properties etc.
+		 
+BOM -> window - how we can do programming using window object
+------------------------------------------------------------------------------
+BOM -> window (global)
+
+timers - setTimeout, setInterval, clearTimeout, clearInterval
+
+- setTimeout -> It will execute JS code after specific time frame (once)
+- setInterval -> It will keep executing your JS code after specific time frame (loop)
+
+BOM Programming
+ - pop-ups
+ - timers
+ - location
+-------------------------------------------------------
+DOM - HTML DOM (DOcument Object Model)
+By using JS -> change elements, change their styles, change attributes, add/remove elements from pag etc.
+
+-> methods -> document.getelementbyid, getelementbyclassname, getelementbytagname
+-> properties -> document.getElementById('myId").style, .innerHTML, .src, .href , .class
+-> events -> onclick, onmouseover, onmouseup, onmousedown, etc etc.
+
+
+
+
+
+
+

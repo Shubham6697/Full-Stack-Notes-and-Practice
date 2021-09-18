@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+    <head>
+        <title>JS & HTML</title>
+    </head>
+    <body>
+        <!-- <button onclick="myFunc()">Click Me</button>
+        <button onclick="testInterval()">Test interval</button>
+        <button onclick="stop()"> Stop Timeout </button> -->
+        <button onclick="document.getElementById('myText').innerHTML = 'Clicked from Button'"> Click Me</button>
+        <button onclick="document.getElementById('myText2').style.color = 'red'"> Click Me to change style</button>
+        <p id="myText"></p>
+        <p id="myText2"> Second Element Present ALready</p>
+        <script>
+
+//width : 50%
+// box-sizing: border-box
+//content = 200px
+// width = margin + border left + padding left + content + padding right + border right = 200px
+            //let, const, var
+            //
+                let elements = document.getElementsByTagName('p'); //array elements[0], elements[1]
+                console.log(elements[1].innerHTML);
+            //}
+            // var count = 0;
+            // function testInterval() {
+            //     let inter = setInterval(function() {
+            //         count++;
+            //         document.getElementById('myText2').innerHTML = count;
+            //         if(count === 10) {
+            //             clearInterval(inter);
+            //         }
+            //     }, 1000);
+            // }
+            // var myVar;
+            // function stop() {
+            //     clearTimeout(myVar);
+            // }
+
+            // function myFunc() {
+            //     myVar = setTimeout(function() {
+            //         document.getElementById('myText').innerHTML = 'Hey!'
+            //     }, 3000);
+            //     console.log(myVar);
+            // }
+            // let age = prompt("Enter your age");
+            // if(age > 12) {
+            //     alert("Age is minor");
+            // }
+
+            // let res = confirm("Do you want to ask this question again>");
+            // if(res) {
+            //     let name = prompt("Hey! Tell me your name?")
+            //     if(name === 'Anuj') {
+            //         alert("Hi! "+ name+ "\nWelcome Onboard");
+            //     }
+            // }
+        </script>
+    </body>
+</html>

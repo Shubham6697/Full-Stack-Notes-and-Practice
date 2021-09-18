@@ -1,0 +1,79 @@
+CSS - Cascading Stlye Sheet
+- 
+- How Many ways which we can use CSS?
+- Inline
+- Internal CSS
+- External CSS
+
+MAIN NOTE - Use external CSS whenever you are creating any web project (Recommended)
+It segregates your HTML and CSS code
+
+Syntax of CSS:
+
+<Selector> { 
+	key : value;
+}
+
+<h1 style="color:red; text-align: center; font-family: 'Times New Roman'"
+
+h1 = selector
+key = color
+value = red
+
+Selector - Tag, ID, Class, Group of Multiple elements 
+---------------------------------------------------------------------------------------------
+Selectors
+- Simple Selector ----- 
+	- id - Its always unique per element in HTML
+	- class - Class you define in CSS - that can be used for any tag in HTML
+			  You can use multiple classes with single html element
+	- elements - covered
+	- grouping - 
+	- universal - *
+----------------------------------------	
+- Combination Selector
+- Pseudo Class Selector
+- Pseduo Element Selector
+- Attribute Selector
+
+
+4 lists in differnet section of webpage - use class (reusability)
+grouping selector - diffeent tags having same properties - using once only (no reusability)
+--------------------------------------------------------------------------------------------
+CSS Colors
+
+- Red/Green/
+- rgb()
+- #No of Color
+---------------------------------------------------------------------------
+CSS Background 
+	- background-color 
+	- background-size
+	- background-image
+	- background-repeat
+	- background-attachment
+	- background-postion
+	opacity
+
+background : <background color> <background image> <background repeat> <backgrond attachment> <backgroun position>
+---------------------------------------------------------
+CSS Borders
+
+border-style
+border-width
+border-radius
+border-color
+
+border: <width> <style> <color>
+------------------------------------------------------------------
+
+
+For MOnday
+- Selectors (4 types) - sub types
+- CSS margins
+- CSS paddings
+
+--------------------------------------
+
+CV using HTML, CSS
+

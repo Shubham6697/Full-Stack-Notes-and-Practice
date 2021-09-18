@@ -1,0 +1,85 @@
+a.myA:link {
+    color: red;
+}
+
+a.myA:hover {
+    background-color: black;
+    padding: 20px
+}
+
+#first, #second {
+    display: inline-block;
+}
+
+.firstImg {
+    display: none;
+}
+
+.secondImg{
+    visibility: hidden;
+}
+
+span {
+    display: block;
+}
+
+.menu {
+    text-decoration: overline;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: lightseagreen;
+    color: black;
+    margin-left: 10px;
+    cursor: crosshair;
+}
+
+a.menu:hover{
+    background-color: lightpink;
+    font-size: 200%;
+}
+
+a.menu:active{
+    background-color: lightgray;
+}
+
+a.myA:active {
+    color:blue
+}
+
+p {
+    width:20%;
+}
+
+#lastP::first-line {
+    color: red;
+    text-decoration: underline;
+}
+
+#lastP::first-letter {
+    font-size: 50px;
+}
+
+input:focus {
+    background-color: blue;
+}
+
+h1::before {
+    content: url("./images/small.gif")
+}
+
+ul li{
+    padding: 10px;
+    width: 40%;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+#ool {
+    list-style-image: url("./images/small.gif");
+}
+
+::selection {
+    background-color: yellow;
+    color:red;
+}

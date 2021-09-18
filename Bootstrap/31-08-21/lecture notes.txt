@@ -1,0 +1,133 @@
+- CSS Flex Layout
+- Bootstrap Classes - Basics of all classes once
+- Bootstrap Grid Layout
+--------------------
+
+CSS FlexBox Layout System
+- Grid (Rows, Columns) - grid layout based on the table structure
+- Flex (flexible layout) - it will not work on 2dimensional (rows/columns)
+	Flex in single dimension (either rows or either columns)
+	
+- grid-container (parent)
+	- grid is 2d (rows and columns)
+	- items present inside parent is grid items
+	- display : grid/grid-inline
+- flex-container(parent)
+	- flex is 1d(either row or column)
+	- flex items
+	- display: flex
+	
+--------------------------------
+flex-direction: column/row/column-reverse/row-reverse/row-rev
+flex-wrap - so it wraps the items automatically and move to the next row when required
+	wrap/no-wrap/wrap-reverse
+	
+flex-flow : shorthand property (flex-direction) (flex-wrap)
+						row wrap
+						column no-wrap
+						column-reverse wrap-reverse
+
+justify-content - horizontally aligned the items  (spaces between items)
+align-content:  flex lines 
+align-items: flex items
+
+position flex items at center
+-------------------------
+Flex Items :
+
+- order - you can change the order of your items by providing this property
+- flex-grow - default is 0
+- flex-shrink - when i am adding new element in flex, (default is 1)
+- flex-basis - you can specify initial width of flex item
+- flex - shorthand property (flex-grow flex-shrink flex-basis)
+
+----------------------------------------------------------
+flex-responsiveness 
+
+laptop - flex-direction: row
+flex-wrap - wrap
+
+@media only device and (max-width: 500px) {
+	.container {
+			flex-direction: column 
+			}
+		}
+--------------------------------------------------------------------------------------------*******
+
+Bootstrap 4 Classes
+
+- container, container-fluid (covereD)
+- Grid Layout
+	- Column specify (12 standard columns created) 
+	- span the columns in bootstrap (classes are there which can be used to span)
+	- spanning (always sum will be 12) - 
+	- row -> column spanning classes
+	- col-
+		col-sm-6
+		col-md-4
+		col-lg-5
+		col-xl-8
+		
+		
+<div class="row">
+	<div class="col-sm-*"> * -> 1-12
+	<div class="col-sm-*">
+</div>
+
+<div class="row">
+	<div class="col-sm-*">
+	<div class="col-sm-*">
+	<div class="col-sm-*">
+</div>
+----------------------------------------------------------------------------------
+
+BS4 Colors
+
+warning - yellow
+danger - red
+success- green
+info - light blue
+primary- blue
+secondary- grey
+light
+dark
+muted
+
+
+buttons
+
+btn-primary
+btn btn-primary/secondary/info/warning btn-outline
+btn-block
+btn-lg, btn-sm
+
+tables
+
+table
+table-responsive
+table-dark
+table-bordered
+table-striped
+table-warning/info/primary/success
+
+jumbotron
+jumbotron-fluid
+
+------------------------------------------------
+Tomorrow topics:
+
+- Navbar
+- Progress Bars
+- Cards
+- Carousel
+- ScrollSpy
+- Modal
+- Animations (will try)
+- Optional - Dropdowns, Lists
+-----------------------------------------------
+Interview Questions:
+- flex vs grid
+- grid layout in bootstrap (column logic 12, screen -sm, lg, xl, md) - row -> columns classes
+- Bs4 vs Bs3 (flex) - Bs3 (float)
+
+

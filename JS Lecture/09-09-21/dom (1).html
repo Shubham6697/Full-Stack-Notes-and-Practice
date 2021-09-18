@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM Programming</title>
+    </head>
+    <body>
+        <div id="demo">
+            <h1></h1>
+            <p></p> <!--insetbefore used-->
+            <div></div>
+            <img>
+        </div>
+        <button onclick="myFunc()">Click To Create Table</button>
+    <script>
+        var arr = ['Phone', 'Watch', 'Car', 'Bike'] //Fetching From API
+
+        const divvv = document.getElementById("demo");
+        divvv.appendChild();
+        function getTableRow() {
+            const tr = document.createElement("tr");
+            tr.style.backgroundColor = 'orange';
+            tr.style.border = '1px solid black';
+            //const style = "border:1px solid black;backgroundColor:orange";
+            //tr.setAttribute("style", style);
+            return tr;
+        }
+
+        function getTableColumn(element) {
+            const td = document.createElement('td');
+            td.innerHTML = element;
+            td.style.padding = '10px';
+            td.style.fontSize = '40px';
+            //const style = "fontSize:40px;padding:10px;"
+            //td.setAttribute("style", style);
+            return td;
+        }
+
+        function myFunc() {
+            const table = document.createElement('table');
+            var no = 10;
+            arr.forEach((element) => {
+                const tr = getTableRow();
+                const col = getTableColumn(element);
+                const col2 = getTableColumn(no++);
+                tr.appendChild(col);
+                tr.appendChild(col2);
+                table.appendChild(tr);
+            });
+
+            const img = document.createElement('img');
+            img.setAttribute("src", "./images/photo2.jpg");
+            img.setAttribute("height", "100px");
+            img.setAttribute("width", "100px");
+
+            // const tr = document.createElement('tr');
+            // const td = document.createElement('td');
+            // td.innerHTML = "Mobile Phone";
+            // const td2 = document.createElement('td');
+            // td2.innerHTML = "Watch";
+            // tr.appendChild(td);
+            // tr.appendChild(td2);
+            // table.appendChild(tr);
+            document.body.appendChild(table);
+            document.body.appendChild(img);
+        }
+
+        // const heading = document.createElement('h1');
+        // // id is attribute of element
+        // heading.setAttribute("id", "myHead1");
+        // //<h1 id="myHead1">
+        // heading.innerHTML = "My Website Heading";
+        // heading.style.color = 'blue';
+        
+        // const myDiv = document.createElement("div");
+        // myDiv.innerHTML = "My First Div";
+        // myDiv.style.padding  = '20px';
+        // myDiv.style.width = '200px';
+        // myDiv.style.border = '2px solid black';
+
+        //<h1 style="color:blue"> My Website Heading </h1>
+        //document.body.appendChild(myDiv);
+        // document.body.appendChild(heading);
+        
+//appendChild -> <div> append {insertBefore(element, new element)} append append</div>
+
+    </script>
+</body>
+</html>

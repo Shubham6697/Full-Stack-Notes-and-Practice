@@ -1,0 +1,130 @@
+- JAVASCRIPT
+
+- FRONT END VS BACKEND
+- HTML/CSS -> JAVASCRIPT 
+- LIGHTWEIGHT
+- HIGH DEMAND 
+
+- Manipulating HTML Pages
+- Validation
+- Data Handle
+- Evenet Managerment
+- Backend Data Loading
+- Server Management
+---------------------------------------------
+
+<html>
+	<head>	
+		
+	<body>
+	
+	<script> -waits  till  script loading completes </script>
+	</body>
+</html>
+
+- Where to include <script> tag
+
+<script>
+JS code
+</script>
+
+---------------------------------------
+Limitations:
+- Multithreading/multiprocessor concept is not there in JS
+- Networking apps -no support in JS
+- Reading/writing files - in JS (security)
+
+Java - Debug => Threads
+--------------------------------------------------
+
+document.getelementbyID() - JS with HTML
+------------------------------------------------------------------
+Javascript Concepts:
+- HTML with JS -> try to use external JS Files (Why???) -  same reason for CSS Styling
+- Segregation - HTML, CSS, JS
+
+How to run JS???
+- Browser (we dont need anything specific to run JS)
+- Developer Tools (Chrome) - run JS code directly
+- Terminal (By using/installing Node) - node in your local machine to run JS file in terminal
+-------------------------------------------------------------------------------
+Execution Context and Functional Context
+- 
+
+-----------------------
+let a = 4;
+function myFunc() {
+	return a*10;
+}
+
+let y = myFunc();
+console.log(y);
+
+output = 40
+----------------------------
+Creation Phase
+Global Object: window(browser), global(node)
+this: refer to global object (window)
+a:  undefined
+function myFunc()
+y : undefined
+-------------------------------------
+Global Execution Phase
+
+global object: window
+this: window
+a: 4
+function myFunc()
+y: myFunc()
+
+Functional context (Your Function uska execution and creation)
+Global Object: arguments
+this: window
+myFunc : 40
+---------------------------------------
+global execution
+
+global object: window
+this: window
+a: 4
+function myFun()
+y : 40
+
+console.log(y)
+
+- It works in the form of Stack 
+-------------------------------------------------------------------------------
+- String  int boolean - data types
+- in JS - declare any variable - var, const, let
+-----------------------------------------------------------------------------
+- Data Types in JS
+	- Primitives
+		- String, Number, Boolean, null, BigInt, undefined
+	- Reference
+		- Object, Array - [Object], null
+-------------------------------------------------------------------------
+- How to define a function in JS
+2 ways to define function
+- Normal Way
+- Arrow Functions
+
+function myFunc(a, b) {
+	
+}
+
+//ES6 Syntax (Es5 vs es6)
+function myFunc = (a, b) => {
+	mostly - automatically this binding
+	//ES6 part (this variable)
+}
+-----------------------------------------------------------------
+Operators in JS
+- Arithmetic Operators (+,-, *,/)
+- Logical Comparators 
+- Comparison Comparators
+- Bitwise Operators
+
+Note: == vs === 
+		? : ternary operator
+		** -> Power operator
+----------------------------------------------------------------

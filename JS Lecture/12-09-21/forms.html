@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+<body>
+    <form name="myForm" onsubmit="return myFunc()">
+        <label for="fullName"> Full Name : </label>
+        <input type="text" name="fullName" id="fullName"><br/>
+        <label for="vehicle"> Select Vehicle Type:</label><br/>
+
+        <input type="radio" name="vehicleType" id="car" value="Car">
+        <label for="car">Car</label>
+        <input type="radio" name="vehicleType" id="bike" value="Bike">
+        <label for="bike">Bike</label>
+        <br/><br/>
+        <label for="hobbies"> Select User Hobbies : </label>
+        Movies <input type="checkbox" id="movies" value="Movies" name="hobby">
+        Travel <input type="checkbox" id="travel" value="Travel" name="hobby">
+        <br/><br>
+
+        <select>
+            <option>US</option>
+            <option>India</option>
+            <option>Russia</option>
+        </select>
+
+        <textarea name="comments"></textarea>
+        <fieldset>
+            <legend>Login Form</legend>
+            User name : <input type="text">
+            Password : <input type="password">
+            <br/>
+            <input type="button" value="Login">
+        </fieldset><br/>
+        <input pattern="[A-Za-z]{5}" type="text" id="myText" required autofocus maxlength="10" minlength="3" placeholder="Enter Country">
+        <datalist id="countries">
+            <option>US</option>
+            <option>India</option>
+            <option>Russia</option>
+            <option>UAE</option>
+        </datalist>
+        <br/><br/>
+        <input type="submit" value="Send Data">
+        <input type="reset">
+    </form>
+
+    <p id="myText"></p>
+    
+    <script>
+        function myFunc() {
+            console.log("Function Called");
+            const fullName = document.getElementById("fullName").value;
+
+            const selected = document.forms['myForm']['vehicleType'].value;
+            console.log(selected)
+
+            const hobbies = document.forms['myForm']['hobby'];
+            console.log(hobbies);
+
+            const password = document.getElementById("age").value;
+            console.log("age - " + password);
+
+            hobbies.forEach((hobby) => {
+                if(hobby.checked) {
+                    console.log("Selected USer Value = " + hobby.value);
+                }
+            })
+            
+            document.getElementById("myText").innerHTML = "User Name is - " + fullName;
+            document.getElementById("myText").innerHTML = "User Owns " + selected;
+            return false;
+        }
+    </script>
+</body>
+</html>

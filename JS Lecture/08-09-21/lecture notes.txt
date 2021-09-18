@@ -1,0 +1,51 @@
+DOM Programming
+- Methods 
+- Events
+- Event Listeners
+- DOM Nodes -> How to create/remove/add/update elements using JS Document Methods
+----------------------------------------------------------
+//document.getElementById("demo") -> once if you are using multiple times
+//Collection of Elements - it will be a sequence
+
+- document.getElementById()
+- document.getElementsByTagName()
+- document.getElementsByClassName()
+- document.forms['formId']
+- document.anchors['anchorId']
+- document.write() -> write the element/text/anythig directly to your document
+
+------------------------------------------------------------------------------
+Events -> Action performed on Browser Window
+- onclick
+- onload -> When your website loads at first time, at that time this event called
+- onunload -> it calls on exit on website
+- onmouseover -> when you move your mouse cursor to any element
+- onmouseout -> when you remove your mouse cursor from any element
+- onmousedown -> when you click - mouse down
+- onmouseup -> when you release click - mouse up
+- onmousemove -> when we move mouse over any element
+- onfocus -> when you focus any input text box, change its properites
+- onchange -> if you change input text then you can modify your content
+--------------------------------------------------------------------------
+Event Listeners
+- click -> privide function, logic, etc etc
+- mouseover -> 
+
+add/remove -> any event type on any element by using event listeners -> myFunc, myFunc with params etc etc
+
+window.
+docuemnt.ge().
+document.getElementsByClassName().
+
+addEventListener(type, function) -> element adds the event to that particulatr element
+removeEventListener(type, function) ->  detach the event from the element
+
+you can provide multiple listeners to same element, multiple listeners of same kind to an element, 
+
+const btn = document.getElementById('myBtn');
+btn.addEventListener('click' ,  myFunc());
+btn.addEventListener('click' ,  myFunc2());
+btn.addEventListener('click' ,  myFunc3());
+
+Event Type -= focus, change, mouseover, resize, load, unload etc etc etc .
+---------------------------------------------------------------------------------

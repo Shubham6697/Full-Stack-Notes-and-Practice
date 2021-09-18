@@ -1,0 +1,94 @@
+- CSS Responsiveness
+	- CSS Grid
+	- CSS Media Queries
+- Basic of Bootstrap
+--------------------------------------------------------
+- content displays properly even reducing/increasing window size 
+- HTML, CSS (There might be chance your website is not responsive)
+
+- should be responsive
+- different devices - mobile - as per your responsiveness design, laptop, tablet 
+
+- Grid/Flex
+- Media Queries
+- Bootstrap
+
+----------------------------------------
+- CSS Grid 
+in the principle of table (rows- columns)
+
+- Webpages using grid, you don need to specify float, postion, etc.
+- parent element for Grid (container)
+	- child (items)
+	
+- We are creating our own GRID Layout
+
+grid-template-columns - specify the width of each column seperated by space
+grid-tempalte-rows- specify the height of each column 
+grid-gap
+grid-row-start
+grid-row-end - similarly for column
+
+justify-content (horizontal alignment) 
+align-content (vertical alignment)
+
+grid-area - row-start/ column-start/ row-end/ column-end
+
+grid layout -header, content, menu, footer, content2
+
+grid-template-areas
+------------------------------------------------------------------------------
+Media Queries:
+
+- Conditon Checking
+- Mobile First Approach
+- Sample Design
+
+checks for the condition (- implement block of CSS)
+if(conditon) 
+	CSS code
+	
+@media Mediatype (condition) {
+ CSS block
+}
+
+1. home Assignment
+	using media query - create a webpage which will move all items in single column for mobile
+						for desktop - it will behave as grid with proper menu and content items with rows and columns
+						
+-------------------------------------------------------------------------------------------------------------
+
+Basics of Bootstrap:
+
+CSS framework]
+- Readymade things
+- No CSS required
+- Mobile First Layout
+- Classes defined 
+
+Grid concept - it internally creates 12 columns (standard)
+device sizes - xs, sm, xl, 
+
+How to Load Bootstrap in our webpage
+- bootstramp.min.css -> this is for all CSS Bootstrap
+	CDN - https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css as stylesheet
+- Downloading bootstrap 
+- jquery.js -> Javascript  components in bootstrap (forms) 
+- bootstrap-min.js -> Javascipt compnentns (forms, tooltips etc.)
+- popper.js -> (tooltip), (modals)
+
+-----------------------------------------------------------------------------
+
+container principle - Grid
+	containers -> grid items -> columns (1-12) -> Screen Size (sm, xl, lg, xs, md etc. etc)
+
+- container - fixed width container
+- container-fluid - full width container
+
+- button, button groups, tables, padidng classes, pagination, spinners, nav, dropdowns, lists, color
+
+#####override bootstap properties by using !important
+
+-------------------------------------------------------------------------------------------------
+
+	

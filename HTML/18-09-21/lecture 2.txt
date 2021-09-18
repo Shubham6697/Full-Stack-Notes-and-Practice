@@ -1,0 +1,50 @@
+HTML Basics , Tags, DOM, 
+div, p, a, li, ul, ol, br, hr, 
+--------------------------------------
+HTML -> Hypertext MarkUp Language
+
+DOM -> Document Object Model
+
+- HTML Elements
+<html> Content </html>
+<p> contetn </p>
+<body> content </body>
+
+<head>
+	<title>
+	<style>
+	<link>
+	<meta>
+</head>
+---------------------------------------------
+<br/> -> Break Line
+<hr/> -> Horizonatal Line
+<p> -> Paragraph, <div>
+
+Inline Elements <span>, <b>, <img>, <button>
+Block Level Elements <div>, <p>, <h1> to <h6> 
+
+<h1> Most 
+<h6> Leastr important
+
+<a> - Anchor Tag
+
+Lists:
+- Unordered Lists <ul>
+- Ordered Lists <ol>
+
+<li> - List Item
+- Defination Lists <dl>
+	<dd> Defination description
+	<dt> defination terms
+	
+	
+	
+Indian Team
+	Virat Kohli
+		Captain
+	Rahul
+		Wicketkeeper
+	Bumrah
+		Bowler
+			Fast Medium

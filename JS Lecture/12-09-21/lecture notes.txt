@@ -1,0 +1,36 @@
+=> Variable Shadowing ------ done
+=> Forms and its validations
+=> JS Classes (Basics and its implementation)
+--------------------------------------------------------------------------
+
+variables -> global, block, local
+shadowing -> inner scope variables overshadowing the scope of global variables
+
+//Variable Shadowing
+//Advantages -- ?? [Not Much Advantages]
+//Disadvantages --?? [1. We cant access Global Variable, User is not aware of variable which he/she is using]
+//Variable Shadowing should not be there in your JS code
+
+------------------------------------- 
+JS Classes 
+Class => class
+JS -> class
+=> Hoisting is not there in JS classes
+=> static variables, static methods - we can not access using object
+=> getter and setter in classes 
+=> private in JS (#)
+=> Inheritance (extends)
+----------------------------------------------------------------------------
+Forms -> 
+Semantic Tag -> Provides specific info to the browswr unlike div
+=> To get User INput and provide some action over it 
+
+<form> 
+Form Attributes -> name = "myForm" , action = "./.asp, .php, .html" method="get/post" - get all user data appended in URL
+			post - user data is not appended to the URL
+		onsubmit="" -> submit - method you want to call (JS)
+		target -> -Blank, _self, _parent, 
+		novalidate -> Which stops the Validation of the form 
+	<input> -> Types of INput
+
+</form>

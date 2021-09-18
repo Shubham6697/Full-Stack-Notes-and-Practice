@@ -1,0 +1,102 @@
+- Second Type of Selector (Combinator Selector)
+
+div, p, h1, table -> releatioship between these elements - combinator selectors
+- Descendent Selector
+- Child Selector
+- Adjacent Sibling Selector
+- General Sibling Selector
+
+Descendent - space( )
+
+div p {
+	background-color : red;
+}
+---------
+Child - (>)
+- All the elements which are present inside the elements (direct child)
+- <div id="myQues">
+	<p> Questions </p>
+	<p> Answers </p>
+	<p>
+	<p
+</div>
+<p>
+
+#myQues > p {
+	
+}
+
+Adjacent Sibling Selector (+)
+- Any element next to specific elements is included in the relation (sibling)
+
+p + div {
+	
+}
+
+<div id="lastSection">
+
+</div>
+<h4 >
+----------------------------------------------------
+General Sibling Selector (~) - any siblings to the adjacent elemnet
+
+<div id="form">
+</div>
+
+<li>
+- change the color
+----------------------------------------------------------------------
+body, h1, header, footer - use element level css (used generally once in webpage)
+div, p, h2-h6, table, li - use class or Id (used multiple times)
+-----------------------------------------------------------------------------
+CSS Box Outline
+
+Margin - Outside the element
+Border - Provides outline to element
+Padding - space inside the element 
+Content - actual content
+
+------------------------------------------------
+CSS Margins
+- margin-top
+- margin-left
+- margin-bottom
+- margin-right
+
+margin : 2px;
+margin : 0 0 2px 4px;
+margin : auto (automatically sets the margin and add div to your center)
+---------------------------------------------------------------
+CSS Paddings - 
+
+padding : 20px; - provides space to all directions
+padding: 20px 40px; (top/bottom - 20px, left/right - 40px)
+padding: 20px 30px 40px; (top - 20, left/right - 30, bottom - 40)
+----------------------------------------------------------------------------
+
+Box Outline and Calculation:
+
+/*
+width = 500px X
+width of content - 
+actual width = width + left padding + right pdding + left margin + right margin + right border + left border
+
+500 + 4 + 6 + 40 = 544 px
+*/
+
+-------------------------------------------------------------------------------
+Height/Width:
+
+----------------------------------------------------------------------
+CSS Text:
+ text-decoration: none;
+ text-align: justify;
+ text-transform: capitalize;
+ letter-spacing: 2px;
+ word-spacing: 3px;
+ text-indent: 10px;
+ line-height: 20px;
+ text-shadow: 1px 1px 5px red;
+
+--------------------------------------------------------------------------------
+

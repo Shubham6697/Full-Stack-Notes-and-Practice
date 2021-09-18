@@ -1,0 +1,62 @@
+- Pseudo Class Selectors
+
+provide styling to any specific state of element 
+
+- a(anchor)
+	link - visible
+	active - move your cursor and click
+	hover - move your cursor
+	visited - actually visited your link
+	
+hover - div, p, img, element
+focus - input elements
+
+selector:pseudo class {
+ props
+}
+
+empty
+first-of-type
+nth child
+
+Home - images (hover over those images - it should become opaque (0.6))
+	   Changing the content size/styling - 
+----------------------------------------------------------------------
+p:first-child - any first p for any specific element
+p:last-child - any last p for specific element
+
+input
+-------------------------------------------------------------------------
+Pseudo Element Selectors
+- Specific Part of element
+- first word, first line, adding before element, adding after element
+
+selector::pseudo-element {
+	
+}
+- first-line
+- first-letter
+- before/after
+- marker
+- selection
+------------------------------------------------------------------------
+CSS Links Styling
+
+-------------------------------------------------------------------------
+- CSS Lists (style lists using css)
+
+------------------------------------------------------------------------
+CSS Display - 
+inline - inline
+block elements - block
+
+display : inline, block
+
+inline vs inline-block
+
+inline-block -> width, height, padding, other
+inline -> XXXX
+
+display: none -> removes the element from the browser (no space)
+visibility: hidden -> element will be hidden but space will be there in web page
+

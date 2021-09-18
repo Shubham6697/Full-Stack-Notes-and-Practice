@@ -1,0 +1,56 @@
+-- Javascript Functions (why JS is not strict language)
+
+- Hoisting
+	- variable hoisting, function hoisting
+- isNaN Property -- where you want to check for any dynamic variable (number)
+- Objects
+	- how to create objects, how to access, how to make changes etc. etc
+- Arrays
+	- In details - array, its methods, its comaprison with object etc etc
+- Looping
+	- for
+	- for/in
+	- for/of
+	- while/do-while
+- If/else, switch control statements
+-------------------------------------------------------------
+- Coercion
+function myFunc(arg1, arg2..)
+{
+}
+
+myFunc = (arg1, arg2) => {
+
+}
+---------------------------------------------------------------
+- Hoisting - default behaviour of JS where functions/variables declarations are moved on top
+
+var a = 10;
+console.log(a);
+
+a = 10;
+console.log(a);
+var a;
+
+//different patterns for hoisting
+- inside function - create some hoisting and then call that function inside another fucntion with hoisting
+----------------------------------------------------------------------------------
+is NaN - Not A Number
+--------------------------------------------------------------------------------
+Objects
+-
+-------------------------------------------------
+Arrays
+- Is special kind of Object typeof - Object
+- Its not fixed length 
+- Homoegeneous 
+
+Arrays - indexes - Arrays those objects which works on indexes mobile[0])
+					Objects which works on names (mobile['camera'])
+
+const arr = [];
+
+typeof arr = Object
+
+=> instanceof
+=> Array.isArray(arr) -> true which is introduced in ES5					

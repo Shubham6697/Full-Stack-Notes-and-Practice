@@ -1,0 +1,76 @@
+=> Promises and Async Operations
+
+Async Operations -> 
+
+setTimeout -> wait then executes
+API calling -> Also takes time get data from server
+file handling -> get file ,process file
+Script Loading -> JS Script Loading
+
+setTimeout //method does not wait
+consoe.log(); //it prints the data
+
+
+const arr = api-calling > returns some data (array) (async operation)
+console.log(arr.length) -> error/undefined
+
+Promises
+Async/Await -i will cover with APIs
+
+how to call APIs using JS
+
+
+Promise
+- states of Promises -> Pending - It is still in progress (neither fulfilled nor rejected)
+						Fulfilled - It is completed successfully (resolved promises)
+						Rejected - Error in your promise and got rejected
+						Settled - either it got fulfilled or rejected
+
+state 			result
+pending			undefined
+fulfilled		result from async operation
+rejected		error
+-----------------------------------------------------------------------------
+
+let result = new Promise(function(resolve, reject) { });
+
+result.then(function(onSuccess){}, function(onError){});
+----------------------------------------------------------------------------------------------------
+API in Javascript
+
+- fetch() -> promise, async-await
+- axios()
+- XMLHttpRequest  - Traditional Approach (Not being used more anywhere)
+
+let request = new XMLHttpRequest();
+request.on("Get", "index.html");
+request.onload = function() {
+	request.response [
+}
+request.send();
+
+
+-XMl Format, JSON format (RESTful - JSON format) , SOAP WS (XML as type)
+GET API -> URL -> Response (async operation in java)
+
+	try {
+				const res = await fetch(url);
+                const data = await res.json();
+                console.log(data);
+				}catch(err) {
+				
+				}
+				
+
+                fetch(url) 
+                .then((res) => { 
+                    return res.json() 
+                })
+                .then((data) => {
+					///manipulate JSON here //DOM programming
+				}) 
+                .catch((err) => console.log(err));
+				
+Axios Code 
+
+axios.get(url).then((res) => console.log(res)).catch((err) => console.log(err));				

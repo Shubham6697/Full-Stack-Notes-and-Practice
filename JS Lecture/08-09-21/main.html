@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+    <head>
+        <title>JS & HTML</title>
+    </head>
+    <body onload="myLoad()">
+        <button id="myBtn">Click</button>
+        <!-- <div onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" onmousemove="mouseMove()" 
+            style="background-color: grey;padding: 20px;width: 30%"> My Div element</div> -->
+            <p id="myText"></p>
+        <!-- <div>
+            <p class="head">HEading 1</p>
+            <h1 class="head">Heading 2</h1>
+            <h4 class="head">Heading 3</h4>
+        </div> -->
+        <!-- <p id="len"></p> -->
+        <!-- <div onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"
+            style="padding:20px;border:2px solid  black; width: 30%; transition: transform 3s;">Our cursor is out from element</div>
+        <div id="demo"></div> -->
+        <script>
+            const x = document.getElementById('myBtn');
+            x.addEventListener("click",newFunc);
+            x.addEventListener("click" ,  newfunc2);
+            x.addEventListener('mouseover', mouseOver);
+
+            window.addEventListener('resize', resizeFunc);
+            function resizeFunc() {
+                document.getElementById("myText").innerHTML = Math.random();
+            }
+            function mouseOver() {
+                x.style.padding = '20px';
+            }
+
+            x.removeEventListener('click', newfunc2);
+            //x.addEventListener("click" ,  myFunc3);
+
+            function newFunc() { alert("button is clicked")};
+            function newfunc2() {alert("seond function is also called")};
+           // function myFunc3() {document.getElementById('myText').innerHTML = '3rd functon called'}
+
+            // mouseMove = () => {
+            //     document.getElementById("myText").innerHTML = Math.random();
+            // }
+
+            // mouseDown = (element) => {
+            //     element.style.backgroundColor = 'orange'
+            // }
+
+            // mouseUp = (element) => {
+            //     element.style.backgroundColor = 'grey'
+            // }
+            // let count = 0;
+            // // function mouseOut(element) {
+            // //     element.innerHTML = "Our cursor is out from element";
+            // //     element.style.backgroundColor = 'yellow'
+            // //     element.style.transform = 'rotate(0deg)';
+            // // }
+
+            // var degree;
+            // function mouseOver(element) {   
+            //     degree = count == 0 ? 180 : 0;
+            //     if(count == 0) {
+            //         count++;
+            //     } else {
+            //         count--;
+            //     }
+            //     element.style.transform = "rotate("+degree+"deg)"
+            //     element.innerHTML = "Cursor moved to Element";
+            //     element.style.backgroundColor = 'green'
+            // }
+
+            // function myLoad() {
+            //     const element = document.getElementById("demo");
+            //     if(navigator.cookieEnabled) {
+            //         element.innerHTML = "It is Enabled";
+            //     } else {
+            //         element.innerHTML = "Cookies are disabled";
+            //     }
+            // }
+
+            // document.getElementById("myBtn").onclick = myFunc;
+            // function myFunc(element) {
+            //     element.style.padding = '20px';
+            // }
+
+
+            // // function myFunc() {
+            // //     const elements = document.getElementsByClassName('head');
+            // //     const lengthCollection = elements.length;
+            // //     const len = document.getElementById("len");
+            // //     len.innerHTML = "length is : " +lengthCollection;
+            // //     len.style.fontSize = "30px";
+            // //     len.style.color = "red";
+
+            // //     var data = "";
+            // //     for(let i = 0; i < elements.length ; i++) {
+            // //         data += elements[i].innerHTML + " ------ ";
+            // //     }
+
+            // //     document.getElementById("demo").innerHTML = data;
+            // // }
+        
+        </script>
+    </body>
+</html>

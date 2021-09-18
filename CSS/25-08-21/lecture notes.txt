@@ -1,0 +1,70 @@
+CSS Fonts - 
+CSS Overflow -
+CSS Tables - 
+CSS Positions - 
+CSS Float/Clear
+---------------------------------------------------------------------
+
+CSS Fonts
+- font-family
+
+- Serif (Small Stroke)
+- Sans-Serif (Normal Fonts/No Styling)
+- Monospace (Same width of each character)
+- Cursive (Stylish fonts)
+- Fantasy
+
+font-family: Courier New, monospace; (Note) X by browser
+
+font-size: 
+px, em, rem, %, 
+<h1><h2><h3>
+--------------------------------------------------------------------------
+overflow:
+visible
+auto - it will enable scroll only when it is required
+scroll - it will always enable scroll part
+hidden
+scrollbar
+overflow-x and overflow-y
+----------------------------------------------------------------------------------
+CSS Tables
+
+10 Rows 
+Even should be grey background (hover - some color)
+Odd shodul ebe white background (hover- some different color)
+
+Use padding, Use width, Use alignment of text
+color combination of text, font-styling, fonts (different) external fonts
+make table responsive (overflow : scroll)
+
+<div width:50%>
+	<table>
+			table width : 500px
+			overflow: scroll			
+
+----------------------------------------------------------------------------------
+CSS Positions
+
+position : 
+ - static -> its by default in nature (every element in HTML it follows the static positioning)
+ - relative -> Position the element relatively to its original position 
+top, bottom, right, left (10, 0, )
+ - absolute -> 
+	positoin relative to its nearest ancestor postioned or body
+	overlapping can be possible (make sure it will not overlap other important elements)
+	
+	
+ - fixed -> any specific position you will be providing to the web page (fixed even if you scroll) - Background Images
+	Specifed Headers
+	Footers
+	Ads
+ - sticky -> sticks to the browser web page
+ 
+z-index (- --- +)
+-------------------------------------------------------------------------------------------
+CSS Float, CSS Clear
+
+- float -> specify how elements float on the webpage
+- clear -> float: left
+clear: 

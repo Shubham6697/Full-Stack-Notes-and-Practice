@@ -1,0 +1,27 @@
+process.stdin.setEncoding('utf-8');
+process.stdin.on('data', data => {
+    var a = parseInt(data.split(" ")[0]);
+    var b = parseInt(data.split(" ")[1]);
+    mySolution(a, b);
+});
+
+function mySolution (a, b){
+    var count = 0;
+    while(a != b) {
+        if ((a > b) && (a % 2 == 0)) {
+            a /= 2;
+            count = count+1;
+        }
+        else {
+            a += 1;
+            count = count+1;
+        }
+    }
+    process.stdout.write(count.toString())
+}
+JS solution of first problem of the contest, keep it as reference for taking input in JS
+Note:
+any data coming in stream will come as string only, need to parseInt
+process.stdout.write will only output a string, it won't print a number
+Follow this article:
+https://shobhitsingh29.medium.com/getting-started-on-codechef-using-javascript-4529be3d8255

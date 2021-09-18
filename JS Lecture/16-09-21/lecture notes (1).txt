@@ -1,0 +1,81 @@
+- Error Handling in JS
+-------------------------------------------------------------
+Advanced Topics of JS - 
+FYI -> React (23rd se start)
+
+--------------------------------------------------------------
+- Errors - Exit your program
+- While Writing Code - 
+
+Errors => 1. Syntax Error (Developer is responsible for syntax)
+		  2. Logical Error (Most Tough Error to Recognize) -> 1000 lines -> true, false
+		  3. RunTime Errors (Syntax, Logic) -> Error (it is undefined, val is not reference any where)
+		  
+let a = 10;
+let c = a + 30;
+
+output is 30 but I am expecting output should be 40 - logical
+
+<li> obj.id </li>
+<li> obj.name </li>
+
+- Debugging when you got any logical error
+- var a : 10; var a = 10;
+
+if(a = 10) X => if(a == 10)
+
+let a = 'string;
+
+function myFunc {
+	X
+}
+
+- Developer is responsible for all Syntax Errors (It stopped you from running your program)
+
+runtime Errors:
+- ReferenceError
+- EvalError
+- TypeError
+- URIError
+- RangeError
+- SyntaxError
+-------------------------------------------------------------------------------------
+how to handle errors in JS 
+=> try, catch, finally, throw keywords 
+ - try -> any code which is exposrd to any error  will write inside the try block
+ - catch -> any errors occurs in try block, caught in cath block
+ - finally -> Irrespective of try/catch block logic, it will always execute
+ - throw -> If developer/user want to explicit throw Error, then throw keyword comes into picture
+ 
+------------------------------------------------------------
+
+throw any variable, throw any object, throw Error, throw Any specific Error -> catch block
+Error Propogation
+-------------------------------------------------------------------------
+Custom Errors, Promise Error Handling, window.onerror
+
+window.onerror -> If any error in your website occurs, we can handle global at window.onerror
+
+Custom Error and its Usage
+
+Promise - Error Handling
+
+Promise -> Asynchronous Operation -> JS (operation) -> I will be stick to it
+
+//Button click -= loads complete website (sync)
+// Button click - some BG process started automatically, you can still acces your WEB, and when BG proces competed you get the result on screen
+
+
+async opeeation -> returns some array (BG working) - success, failure
+array - you perfomr some operations (processing) -> undefined, process propertly
+
+Promises
+
+Promise.resolve -> while performing async operation - we got success (try block got completed successfully)
+Promise.reject -> throw error -> catch
+
+async function 
+	await //api calling
+	
+	//start executing this code
+------------------------------------------------------------------------------------------------------------
